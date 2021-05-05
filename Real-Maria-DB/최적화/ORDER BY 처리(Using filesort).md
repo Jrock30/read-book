@@ -99,3 +99,15 @@ SELECT * FROM employees e, salaries s
 > - ORDER BY 나 GROUP BY 와 같은 처리는 쿼리의 결과가 스트리밍되는 것을 불가능하게 한다. 우선 WHERE 조건에 일치하는 모든 레코드를 가져온 후, 정렬하거나 그룹핑을 해서 차례대로 보내야 하기 때문이다. 응답 속도가 느려지는 것이다.
 > - 일반적으로 RDBMS의 조인에서는 WHERE 조건에 일치하는 대상 **레코드 건수가 적은 쪽 테이블을 우선적으로 드라이빙 테이블**로 선정하게 된다.
 > - 가능하다면 **인덱스**를 사용한 정렬로 유도하고 그렇지 못하다면 최소한 **드라이빙 테이블**만 정렬해도 되는 수준으로 유도 하는 것도 좋은 튜닝 방법이다.
+
+### 정렬 관련 상태 변수
+> - 정렬과 관련해서도 지금까지 몇 건의 레코드나 정렬 처리를 수행했는지, 소트 버퍼 간의 병합 작업(멀티 머지)은 몇 번이나 발생했는지 등을 다음과 같은 명령으로 확인해 볼 수 있다.
+<pre>
+SHOW SERSSION STATUS LIKE 'Sort%';
+SELECT first_name, last_name FROM employees GROUP BY first_name, last_name;
+SHOW SERSSION STATUS LIKE 'Sort%';
+</pre>
+> - Sort_merge_passes 는 멀티 머지 처리 횟수를 의미한다.
+> - Sort_range 는 인덱스 레인지 스캔을 통해 검색된 결과에 대한 정렬 작업 횟수다.
+> - Sort_scan 은 풀 테이블 스캔을 통해 검색된 결과에 대한 정렬 작업 횟수다. Sort_scan과 Sort_range는 둘 다 정렬 작업 횟수를 누적하고 있는 상태 값이다.
+> - Sort_rows 는 지금까지 정렬한 전체 레코드 건수를 의미한다.
