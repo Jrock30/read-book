@@ -88,3 +88,17 @@ SELECT *
 NATURAL JOIN salaries s;
 </pre>
 - 조인 조건을 명시하지 않아도 서로 이름이 같은 컬럼을 모두 조인 조건으로 사용한다. 조인 조건을 명시하지 않는 편리함이 있지만 원하지 않은 컬럼도 이름이 같으면 모두 조인 조건에 넣으므로 원하지 않는 결과가 나올 수 있으므로 그냥 이런 것이 있다 정도로만 알아두자.
+
+## INNER JOIN 과 OUTER JOIN 의 선택
+> OUTER JOIN 과 INNER JOIN 은 실제 가져와야 하는 레코드가 같다면 쿼리의 성능은 거의 차이가 발생하지 않는다.
+<pre>
+SELECT SQL_NO_CACHE STRAIGHT_JOIN COUNT(*)
+  FROM dept_emp de
+ INNER JOIN employees e ON e.emp_no = de.emp_no;
+
+ SELECT SQL_NO_CACHE STRAIGHT_JOIN COUNT(*)
+  FROM dept_emp de
+  LEFT JOIN employees e ON e.emp_no = de.emp_no;
+</pre>
+- 실제 위의 두 쿼리는 두 번쨰 테이블(employees)에서 해당 레코드의 존재 여부를 판단하는 별도의 트리거 조건이 한 번씩 실행되기 때문에 0.01초 정도 더 걸린 것으로 보인다. 그 이외 어떤 성능적인 이슈가 될 만한 부분은 전혀 없다.
+- INNER JOIN 과 OUTER JOIN 은 성능을 고려해서 선택할 것이 아니라 업무 요건에 따라 선택하는 것이 바람직하다.
