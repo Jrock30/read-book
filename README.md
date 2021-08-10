@@ -1,4 +1,4 @@
-# 읽은 책 정리
+# 독서 그리고 생각 노트
 
 ## 정리하기도 하고 읽기만도 하고 잡다한생각도 하고
 0. [잡다한생각](https://github.com/Jrock30/read-book/tree/master/%EC%9E%A1%EB%8B%A4%ED%95%9C%EC%83%9D%EA%B0%81)
