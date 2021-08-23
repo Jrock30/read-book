@@ -2,7 +2,7 @@
 
 ## 정리하기도 하고 읽기만도 하고 잡다한생각도 하고
 0. [잡다한생각](https://github.com/Jrock30/read-book/tree/master/%EC%9E%A1%EB%8B%A4%ED%95%9C%EC%83%9D%EA%B0%81)
-1. [Daily]()
+1. [Daily](https://github.com/Jrock30/read-book/tree/master/DAILY)
 - - -
 1. [Real Maria DB (이성욱 - 위키북스)](https://github.com/Jrock30/read-book/tree/master/Real-Maria-DB/)
 2. 실용주의 프로그래머 (앤드류 헌트, 데이비드 토머스 - 인사이트)
@@ -19,3 +19,4 @@
 13. 부자 아빠 가난한 아빠(로버트 기요사키 - 민음인)
 14. 내 옆에는 왜 이상한 사람이 많을까?(모니카 비트블룸, 산드라 뤼프케스 - 동양북스)
 15. 엑시트 EXIT(송희창(송사무장) - 지혜로)
+16. 타이탄의 도구들(팀페이스 - 토네이도)
