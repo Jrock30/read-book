@@ -1,8 +1,6 @@
-# 독서 그리고 생각 노트
+# 독서, 강의, 회고
 
-## 정리하기도 하고 읽기만도 하고 잡다한생각도 하고
-0. [잡다한생각](https://github.com/Jrock30/read-book/tree/master/%EC%9E%A1%EB%8B%A4%ED%95%9C%EC%83%9D%EA%B0%81)
-1. [Daily](https://github.com/Jrock30/read-book/tree/master/DAILY)
+## 독서
 - - -
 1. [Real Maria DB (이성욱 - 위키북스)](https://github.com/Jrock30/read-book/tree/master/Real-Maria-DB/)
 2. 실용주의 프로그래머 (앤드류 헌트, 데이비드 토머스 - 인사이트)
@@ -20,4 +18,47 @@
 14. 내 옆에는 왜 이상한 사람이 많을까?(모니카 비트블룸, 산드라 뤼프케스 - 동양북스)
 15. 엑시트 EXIT(송희창(송사무장) - 지혜로)
 16. 타이탄의 도구들(팀페이스 - 토네이도)
-17. 함께 자라기 - 애자일로 가는길(김창준 - 인사이트)
+17. 함께 자라기 - 애자일로 가는길(김창준 - 인사이트)  
+
+
+
+
+
+## 강의    
+---
+1. [스프링 핵심 원리 기본편(김영한)](https://github.com/Jrock30/spring_base)
+2. [스프링 MVC 1편 핵심기술(김영한)](https://github.com/Jrock30/spring-mvc)  
+ 2-1. [스프링 MVC 예제 -1](https://github.com/Jrock30/spring-mvc2)  
+ 2-1. [스프링 MVC 예제 -2](https://github.com/Jrock30/spring-mvc1-todo)
+3. [자바 ORM 표준 JPA - 김영한](https://github.com/Jrock30/jpa_base)  
+ 3-1. [JPA 예제](https://github.com/Jrock30/jpa-start)  
+ 3-2. [JPA-JPQL](https://github.com/Jrock30/JPA-JPQL)
+4. [Spring Boot + JPA 성능 최적화(김영한)](https://github.com/Jrock30/springboot-jpa)
+5. [Spring Data JPA(김영한)](https://github.com/Jrock30/springdata-jpa)
+6. [JPA Querydsl(김영한)](https://github.com/Jrock30/jpa-querydsl)
+7. HTTP 웹 기본지식(김영한)
+8. [Spring Boot Security - 정수원](https://github.com/Jrock30/spring-security)  
+ 8-1. [Spring Boot Security 예제](https://github.com/Jrock30/spring-security-basic)
+9. Spring Cloud  
+ 9-1. [Discovery-Eureka](https://github.com/Jrock30/discovery-eureka)  
+ 9-2. [spring-cloud-gateway](https://github.com/Jrock30/spring-cloud-gateway)  
+ 9-3. [spring-cloud-config-server](https://github.com/Jrock30/spring-cloud-config-server)   
+ 9-4. [spring-cloud-config](https://github.com/Jrock30/spring-cloud-config)   
+ 9-5. [msa-service-client-order](https://github.com/Jrock30/msa-service-client-order)     
+ 9-6. [msa-service-client-catalog](https://github.com/Jrock30/msa-service-client-catalog)  
+ 9-7. [msa-service-client-user](https://github.com/Jrock30/msa-service-client-user)   
+10. [Golang(노마드코더)](https://github.com/Jrock30/blockchain-golang)
+11. [Typescript-basic(노마드코더)](https://github.com/Jrock30/blockchain-typescript)
+12. [NestJS-basic(노마드코더)](https://github.com/Jrock30/hello-nest)
+13. [Spring 핵심원리 고급(김영한) - 패턴](https://github.com/Jrock30/spring-advance-one)  
+ 13-1. [Spring 핵심원리 고급(김영한) - Proxy](https://github.com/Jrock30/spring-advance-one)  
+ 13-2. [Spring 핵심원리 고급(김영한) - AOP](https://github.com/Jrock30/spring-advance-three)
+14. [Angular 완벽가이드(Maximilian Schwarzmüller)](https://github.com/Jrock30/angular-app)  
+ 14-1. [Angular 완벽가이드 - 예제](https://github.com/Jrock30/angular-app-project)
+
+
+
+## 회고
+---
+0. [잡다한생각](https://github.com/Jrock30/read-book/tree/master/%EC%9E%A1%EB%8B%A4%ED%95%9C%EC%83%9D%EA%B0%81)
+1. [회고](https://github.com/Jrock30/read-book/tree/master/DAILY)
