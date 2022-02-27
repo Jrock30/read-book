@@ -1,7 +1,14 @@
-# 독서, 강의, 회고
+# 회고, 독서, 강의
+
+## 회고
+- [2021](https://github.com/Jrock30/read-book/tree/master/%ED%9A%8C%EA%B3%A0/2021)
+- [2022](https://github.com/Jrock30/read-book/tree/master/%ED%9A%8C%EA%B3%A0/2022)
+
 
 ## 독서
 - - -
+2021  
+
 1. [Real Maria DB (이성욱 - 위키북스)](https://github.com/Jrock30/read-book/tree/master/BOOK/Real-Maria-DB)
 2. 실용주의 프로그래머 (앤드류 헌트, 데이비드 토머스 - 인사이트)
 3. 오브젝트 (조영호 - 위키북스)
@@ -20,7 +27,16 @@
 16. 타이탄의 도구들(팀페이스 - 토네이도)
 17. 함께 자라기 - 애자일로 가는길(김창준 - 인사이트)  
 
+- - - 
+2022  
 
+1. 어떻게 경제적 자유를 얻을 것 인가 (이동훈 - 해냄)
+2. 부의 시그널 (박종훈 - 베가북스)
+3. 당신만 몰랐던 부동산 투자 (김학렬 빠숑 - 베가북스)
+4. 나는 1000만원으로 아파트 산다 (시크릿 브라더 - 황금부엉이)
+5. DAILY PHILOSOPHY (라이언 홀리데이, 스티븐핼슬먼 - 다산초당)
+6. NFT 사용설명서 (맷 포트나우, 큐해리슨 테라 - 여의도책방)
+7. 이더리움 디앱 개발 (로베르토 인판테 - 한빛미디어)
 
 
 
@@ -58,8 +74,3 @@
 
 
 
-## 회고
----
-[회고](https://github.com/Jrock30/read-book/tree/master/%ED%9A%8C%EA%B3%A0)
-- [2021](https://github.com/Jrock30/read-book/tree/master/%ED%9A%8C%EA%B3%A0/2021)
-- [2022](https://github.com/Jrock30/read-book/tree/master/%ED%9A%8C%EA%B3%A0/2022)
